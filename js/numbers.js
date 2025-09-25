@@ -32,6 +32,7 @@
 // const c = b+a
 // console.log(c);
 // console.log(typeof c);
+
 // const d = "Mykola"
 // const e = "Sadlii"
 // console.log(d+ " "+e);

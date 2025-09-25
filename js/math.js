@@ -1,18 +1,26 @@
 // console.dir(Math)
+
 // const max = Math.max(1, 2, 3, 4, 5);
 // console.log(max);
+
 // const min = Math.min(1, 2, 3, 4, 5);
 // console.log(min);
+
 // const squareNumber = Math.pow(25, 3);
 // console.log(squareNumber);
+
 // const decimal = Math.floor(12.34);
 // console.log(decimal);
+
 // const ceil = Math.ceil(12.9);
 // console.log(ceil);
+
 // const round = Math.round(12.34);
 // console.log(round);
+
 // const squareRoot = Math.sqrt(36);
 // console.log(squareRoot);
+
 // const maxNumber = 100;
 // const minNumber = 10;
 // const random = Math.round(Math.random()* (maxNumber - minNumber) + minNumber);
