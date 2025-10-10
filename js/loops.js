@@ -1,3 +1,5 @@
+// for
+
 // console.log(1);
 // console.log(2);
 // console.log(3);
@@ -51,3 +53,69 @@
 // for(let i = 10; i >= 1; i -= 1){
 //     console.log(i);
 // }
+
+// while
+
+//Задача 1: Вивести числа від 1 до 5 (while)
+
+// let i = 5;
+// while (i > 0) {
+//     console.log(i);
+//     i -= 1;
+// }
+
+// for(let i = 0; i < 18; i += 1){
+//     console.log(i);
+    
+// }
+
+//Задача 3: Порахувати суму чисел від 1 до 10 (while)
+
+// let i = 0;
+// let sum = 0;
+// while (i <= 10){
+//     sum += i;
+//     console.log(i += 1); 
+// }
+// console.log(sum);
+
+// Задача 4: Ввести число більше 10 (do...while)
+
+// let num;
+// do{
+//     num = Number(prompt("Enter number bigger than 10"));
+// } while(num <= 10){
+//     console.log(num);
+// }
+//Задача: Запросити у користувача число більше 0 та зробити перевірку на не число
+
+// let number;
+// do{
+//     number = Number(prompt("Enter number bigger than 0"));
+// } while(number <= 0 ||  isNaN(number)){
+//     console.log(number);
+// }
+
+// попросити у користувача ввести номер телефону і якщо довжина номеру телефону менша, або більша за 10, обробити помилки
+
+let userPhone;
+do {
+     userPhone = prompt("Enter your phone number").trim();
+      if (userPhone === null) {
+        alert("Error:Cancelled");
+        break;
+     }
+     if (userPhone.length < 10 || userPhone.length > 10) {
+        alert("Error: Number is too long or short");
+        break;
+     }
+     if (userPhone.length === 10 && !isNaN(userPhone)) {
+        alert("Phone number verified");
+        break;
+     }
+} while (true)
+    console.log(userPhone);
+    
+
+// let user = prompt("Enter number");
+// console.log(user);
