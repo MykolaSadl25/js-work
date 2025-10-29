@@ -57,4 +57,3 @@ for(let i = 0; i < arr.length; i += 1){
     result += arr[i];
 } 
 console.log(result);
-
