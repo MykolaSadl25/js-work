@@ -1,0 +1,17 @@
+ul{
+    padding: 50px;
+    background-color: aquamarine;
+}
+
+li{
+    padding: 20px;
+    background-color: red;
+}
+
+.active{
+    border: 3px solid red;
+}
+
+.inactive{
+    border: 5px solid yellow;
+}
