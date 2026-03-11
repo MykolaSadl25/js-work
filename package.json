@@ -1,0 +1,27 @@
+{
+  "name": "js-l1",
+  "version": "1.0.0",
+  "main": "practice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "qwerty":"node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykolaSadl25/js-work.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MykolaSadl25/js-work/issues"
+  },
+  "homepage": "https://github.com/MykolaSadl25/js-work#readme",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.16.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
